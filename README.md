@@ -1,2 +1,7 @@
 # HouseHold-Air-Pollution-effects-
 Excel Data Cleaning and Transformation
+The Data was sourced from https://www.kaggle.com/datasets/yapwh1208/household-air-pollution-attributable-deaths/data
+The Dataset is a kaggle dataset scrapped from the WHO website, which I cleaned and transformed so it contains the most important infomation such as the Parent Location, Location, Year, Sex, Cause,Cause Code, Average Number of Deaths, The Higher and Lower Bounds of Deaths, Date and Time. 
+The methodolgy and techniques used was first to Change the Column names to make them more recognisable. Then the next step used was to check for Duplicated rows, which they werent any, the next thing I did was to see if there was missing data or to check to see if the data is written correctly. Which Turkey and Cote d'ivoire had ? within their names. Both had 18 results each that needed to be changed. 
+The Next step I saw that the Causes had a Total within them, And it was related to the total with male, female and Both gender information for each region the main reason why I took this data out was so that it wouldnt interfere with other calculation that can be done as the other values in the other columns werent as useful, looking back now I could have kept these in as filtering them out is not a tough task. Making sure each column is formatted correctly helps further down the line so that was done also. 
+I Transformed the Date column by spilting the Date and Time seperately into two columns.  
